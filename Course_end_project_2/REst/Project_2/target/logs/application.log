@@ -1,0 +1,9 @@
+2023-06-01 08:49:27,490 [main] INFO  CrudOperations.Project_2.Api_1_Get - 
+2023-06-01 08:49:27,493 [main] INFO  CrudOperations.Project_2.Api_1_Get - Api 1 Test get  Started. 
+2023-06-01 08:49:28,266 [main] INFO  CrudOperations.Project_2.Api_1_Get - Asserting 4th id email and page number.
+2023-06-01 08:49:30,892 [main] INFO  CrudOperations.Project_2.Api_1_Get - Get Test Completed Successfully. 
+2023-06-01 08:51:20,623 [main] INFO  CrudOperations.Project_2.Api_2_Post - 
+2023-06-01 08:51:20,627 [main] INFO  CrudOperations.Project_2.Api_2_Post - Api 2  Test get Started. 
+2023-06-01 08:51:21,131 [main] INFO  CrudOperations.Project_2.Api_2_Post - Data passing from JsonnDataa class. 
+2023-06-01 08:51:24,023 [main] INFO  CrudOperations.Project_2.Api_2_Post - 
+2023-06-01 08:51:24,024 [main] INFO  CrudOperations.Project_2.Api_2_Post -  Api 2 Test Completed Successfully. 

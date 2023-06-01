@@ -1,0 +1,20 @@
+# Set root logger level to DEBUG and its only appender to ConsoleAppender
+log4j.rootLogger=DEBUG, ConsoleAppender
+
+# ConsoleAppender configuration
+log4j.appender.ConsoleAppender=org.apache.log4j.ConsoleAppender
+log4j.appender.ConsoleAppender.layout=org.apache.log4j.PatternLayout
+log4j.appender.ConsoleAppender.layout.ConversionPattern=%d [%t] %-5p %c{1} - %m%n
+
+# FileAppender configuration
+log4j.appender.FileAppender=org.apache.log4j.FileAppender
+log4j.appender.FileAppender.layout=org.apache.log4j.PatternLayout
+log4j.appender.FileAppender.layout.ConversionPattern=%d [%t] %-5p %c{1} - %m%n
+log4j.appender.FileAppender.file=logs/application.log
+
+# Set the log level for specific packages or classes
+log4j.logger.com.example.package=DEBUG
+log4j.logger.com.example.anotherpackage=INFO
+
+# Set the log level for a specific class
+log4j.logger.com.example.MyClass=ERROR

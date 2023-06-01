@@ -1,0 +1,37 @@
+package CrudOperations.Project_2;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import payLoad.URIlinks;
+import static org.hamcrest.Matchers.*;
+
+import org.apache.logging.log4j.LogManager;
+
+
+public class Api_1_Get {
+	
+	private static final Logger logger = LogManager.getLogger(Api_1_Get.class);
+
+	@Test
+	public void api_1() {
+		
+		RequestSpecification req = new RequestSpecBuilder().setBaseUri(URIlinks.getURI).setRelaxedHTTPSValidation().build();
+		RequestSpecification res = given().spec(req);
+		
+		ResponseSpecification response = new ResponseSpecBuilder().expectStatusCode(200).build();
+		Response responsee = res.when().get().then().log().all().body("page", equalTo(1))
+				.body("data[5].email", containsString("tracey.ramos@reqres.in"))
+				.spec(response).extract().response();
+		String respo = responsee.asPrettyString();
+		
+		System.out.println(respo);
+	}
+}

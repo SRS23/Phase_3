@@ -1,0 +1,10 @@
+2023-05-31 12:11:33,467 [main] INFO  CrudOperations.Project_2.Api_2_Post - Get Test Started. 
+2023-05-31 12:11:36,311 [main] INFO  CrudOperations.Project_2.Api_2_Post - {
+    "id": "90",
+    "createdAt": "2023-05-31T06:41:35.735Z"
+}
+2023-05-31 12:17:33,303 [main] INFO  CrudOperations.Project_2.Api_2_Post - 
+2023-05-31 12:17:33,306 [main] INFO  CrudOperations.Project_2.Api_2_Post - Api 2  Test get Started. 
+2023-05-31 12:17:33,773 [main] INFO  CrudOperations.Project_2.Api_2_Post - Data passing from JsonnDataa class. 
+2023-05-31 12:17:37,619 [main] INFO  CrudOperations.Project_2.Api_2_Post - 
+2023-05-31 12:17:37,621 [main] INFO  CrudOperations.Project_2.Api_2_Post -  Api 2 Test Completed Successfully. 

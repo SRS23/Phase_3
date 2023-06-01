@@ -1,0 +1,15 @@
+2023-05-31 12:18:26,951 [main] INFO  CrudOperations.Project_2.Api_1_Get - 
+2023-05-31 12:18:26,955 [main] INFO  CrudOperations.Project_2.Api_1_Get - Api 1 Test get  Started. 
+2023-05-31 12:18:28,192 [main] INFO  CrudOperations.Project_2.Api_1_Get - Asserting 4th id email and page number.
+2023-05-31 12:18:31,132 [main] INFO  CrudOperations.Project_2.Api_1_Get - Get Test Completed Successfully. 
+2023-05-31 12:18:33,968 [main] INFO  CrudOperations.Project_2.Api_2_Post - 
+2023-05-31 12:18:33,972 [main] INFO  CrudOperations.Project_2.Api_2_Post - Api 2  Test get Started. 
+2023-05-31 12:18:34,509 [main] INFO  CrudOperations.Project_2.Api_2_Post - Data passing from JsonnDataa class. 
+2023-05-31 12:18:37,423 [main] INFO  CrudOperations.Project_2.Api_2_Post - 
+2023-05-31 12:18:37,424 [main] INFO  CrudOperations.Project_2.Api_2_Post -  Api 2 Test Completed Successfully. 
+2023-05-31 16:28:46,564 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - 
+2023-05-31 16:28:46,582 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - Getting all Employees Data using get method. 
+2023-06-01 08:49:06,355 [main] INFO  CrudOperations.Project_2.Api_1_Get - 
+2023-06-01 08:49:06,358 [main] INFO  CrudOperations.Project_2.Api_1_Get - Api 1 Test get  Started. 
+2023-06-01 08:49:07,424 [main] INFO  CrudOperations.Project_2.Api_1_Get - Asserting 4th id email and page number.
+2023-06-01 08:49:10,864 [main] INFO  CrudOperations.Project_2.Api_1_Get - Get Test Completed Successfully. 

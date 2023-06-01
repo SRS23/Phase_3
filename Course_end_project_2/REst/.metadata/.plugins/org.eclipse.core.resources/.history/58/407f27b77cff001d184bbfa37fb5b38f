@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+  <Appenders>
+    <Console name="ConsoleAppender" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n" />
+    </Console>
+    <File name="FileAppender" fileName="F:\svl svs\My projects\Phase -3 projects\Course end project 2\REst\Project_2\target\application.log">
+      <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n" />
+    </File>
+  </Appenders>
+  <Loggers>
+    <Root level="debug">
+      <AppenderRef ref="ConsoleAppender" />
+      <AppenderRef ref="FileAppender" />
+    </Root>
+  </Loggers>
+</Configuration>

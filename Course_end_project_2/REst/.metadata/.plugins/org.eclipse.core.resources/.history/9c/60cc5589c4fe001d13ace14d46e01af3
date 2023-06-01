@@ -1,0 +1,30 @@
+package CrudOperations.Project_2;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import payLoad.URIlinks;
+
+
+public class Api_1_Get {
+
+	@Test
+	public void api_1() {
+		
+		RequestSpecification req = new RequestSpecBuilder().setBaseUri(URIlinks.getURI).setRelaxedHTTPSValidation().build();
+		RequestSpecification res = given().spec(req).log().all();
+		
+		ResponseSpecification response = new ResponseSpecBuilder().expectStatusCode(200).build();
+		Response responsee = res.when().get().then().log().all().body(page, equalTo(1))       spec(response).extract().response();
+		String respo = responsee.asPrettyString();
+		
+		System.out.println(respo);
+	}
+}

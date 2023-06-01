@@ -1,0 +1,7 @@
+package payLoad;
+
+public class URIlinks {
+
+	
+	public static final String baseURI ="https://reqres.in/";
+}

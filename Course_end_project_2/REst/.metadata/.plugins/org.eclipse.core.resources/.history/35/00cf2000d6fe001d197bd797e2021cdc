@@ -1,0 +1,16 @@
+package payLoad;
+
+public class JsonnDataa {
+
+	public  String postData() {
+		return "";
+	}
+}
+
+{
+"name":"Siva Ramana Sekhar Sunku",
+"job":"Automation Tester",
+"email":"rs2310rsrs@gmail.com"
+"Location":"Hyderabad"
+	
+}

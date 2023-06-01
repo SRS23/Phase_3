@@ -1,0 +1,26 @@
+package CrudOperations.Project_2;
+
+import static io.restassured.RestAssured.given;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import payLoad.JsonnDataa;
+import payLoad.URIlinks;
+
+public class Api_2_Post {
+
+	RequestSpecification request = new RequestSpecBuilder().setBaseUri(URIlinks.postURI).build();
+	RequestSpecification request1 = given().spec(request).body(JsonnDataa.postData());
+	
+	ResponseSpecification response = new ResponseSpecBuilder().expectStatusCode(201).expectContentType(ContentType.JSON).build();
+	
+	Response response1 = request1.when().post().then().extract().response();
+	
+	String response2 = response1.asPrettyString();
+	
+	
+}

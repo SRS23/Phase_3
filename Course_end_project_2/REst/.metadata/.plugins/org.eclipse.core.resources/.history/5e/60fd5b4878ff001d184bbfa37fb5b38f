@@ -1,0 +1,47 @@
+package CrudOperations.Project_2;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.equalTo;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.annotations.Test;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import payLoad.URIlinks;
+
+
+public class Api_1_Get {
+	
+	private static final Logger logger = LogManager.getLogger(Api_1_Get.class);
+
+	@Test
+	public void api_1() {
+		
+		String log4jpath =System.getProperty("user.dir")+"/log4j.properties";
+		
+		
+		logger.info("Get Test Started. ");
+		
+		
+		RequestSpecification req = new RequestSpecBuilder().setBaseUri(URIlinks.getURI).setRelaxedHTTPSValidation().build();
+		RequestSpecification res = given().spec(req);
+		
+		ResponseSpecification response = new ResponseSpecBuilder().expectStatusCode(200).build();
+		Response responsee = res.when().get().then().log().all().body("page", equalTo(1))
+				.body("data[5].email", containsString("tracey.ramos@reqres.in"))
+				.spec(response).extract().response();
+		String respo = responsee.asPrettyString();
+		
+			
+		
+		System.out.println(respo);
+		
+		logger.info("Get Test Completed Successfully. ");	
+	}
+}

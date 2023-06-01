@@ -1,0 +1,16 @@
+name-PropertiesConfig
+property.filename = lots
+ appenders console, He
+
+appender.console.type = Console
+ appender.console.name STDOUT
+ appender.console.layout.type PatternLayout
+ appender.console.layout.pattern [%-5level] %d{yyyy-MM-dd HH:mm:ss,SSS} [%t] %c (1) Xmsg%n
+
+ appender.file.type File
+ appender.file.name = LOGFILE
+appender.file.fileName=${filename)/logs.log
+
+appender.file.layout.pattern=[%-Slevel] %d{yyyy-MM-dd HH:mm:ss,SSS} [%t] %c{1} - msgn
+ rootLogger.level = debug
+ rootLogger.appenderRefs= file
