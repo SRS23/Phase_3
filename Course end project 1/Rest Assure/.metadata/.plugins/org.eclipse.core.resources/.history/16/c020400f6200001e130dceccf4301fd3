@@ -1,0 +1,10 @@
+2023-06-01 15:21:21,191 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - 
+2023-06-01 15:21:21,198 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - Getting all Employees Data using get method. 
+2023-06-01 15:21:25,610 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - All Employees data getting test completed Successfully.. 
+2023-06-01 15:21:47,561 [main] INFO  com.dummyrestapiexample.Project_1.EmpDataWithId - Emp data By id test 
+2023-06-01 15:22:04,340 [main] INFO  com.dummyrestapiexample.Project_1.EmpUpdate - 
+2023-06-01 15:22:04,345 [main] INFO  com.dummyrestapiexample.Project_1.EmpUpdate - Emp update test started successfully. 
+2023-06-01 15:22:30,979 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - 
+2023-06-01 15:22:30,984 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - 
+2023-06-01 15:22:36,374 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - 
+2023-06-01 15:22:36,375 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - 

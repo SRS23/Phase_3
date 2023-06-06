@@ -1,0 +1,1120 @@
+{
+	"info": {
+		"_postman_id": "77f7d973-327a-4c6f-8de0-1f0f65cecec3",
+		"name": "Project_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27488767"
+	},
+	"item": [
+		{
+			"name": "kadapa_A.P",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=kadapa%2C+Andhra+Pradesh",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "kadapa%2C+Andhra+Pradesh"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hyderabad, Telangana.",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=hyderabad+Telangana",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "hyderabad+Telangana"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dispur, Assam.",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{owa}}/find?q=Dispur%2C+Assam",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Dispur%2C+Assam"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Amaravathi, Andhra Pradesh.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Amaravati%2C+Andhra+Pradesh",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Amaravati%2C+Andhra+Pradesh"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kolkata, West Bengal",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Kolkata%2C+West+Bengal",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Kolkata%2C+West+Bengal"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patna, Bihar.",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{owa}}/find?q=patna%2C+Bihar",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "patna%2C+Bihar"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Panaji, Goa.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Panaji%2C+Goa",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Panaji%2C+Goa"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bengaluru, Karnataka",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Bengaluru%2C+Karnataka",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Bengaluru%2C+Karnataka"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Imphal, Manipur",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{owa}}/find?q=Imphal%2C+Manipur",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Imphal%2C+Manipur"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Aizawl, Mizoram",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Aizawl%2C+Mizoram",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Aizawl%2C+Mizoram"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lucknow, Uttar Pradesh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Lucknow%2C+Uttar+Pradesh",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Lucknow%2C+Uttar+Pradesh"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Chennai, Tamil Nadu.",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{owa}}/find?q=Chennai%2C+Tamil+Nadu.",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Chennai%2C+Tamil+Nadu."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jaipur, Rajasthan",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Jaipur%2C+Rajasthan",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Jaipur%2C+Rajasthan"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kohima, Nagaland",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{owa}}/find?q=Kohima%2C+Nagaland",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Kohima%2C+Nagaland"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ranchi, Jharkhand",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Ranchi%2C+Jharkhand",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Ranchi%2C+Jharkhand"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Thiruvananthapuram, Kerala",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{owa}}/find?q=Thiruvananthapuram%2C+Kerala",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Thiruvananthapuram%2C+Kerala"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Shimla, Himachal Pradesh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{owa}}/find?q=Shimla%2C+Himachal+Pradesh",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Shimla%2C+Himachal+Pradesh"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gandhinagar, Gujarat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{owa}}/find?q=Gandhinagar%2C+Gujarat",
+					"host": [
+						"{{owa}}"
+					],
+					"path": [
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Gandhinagar%2C+Gujarat"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

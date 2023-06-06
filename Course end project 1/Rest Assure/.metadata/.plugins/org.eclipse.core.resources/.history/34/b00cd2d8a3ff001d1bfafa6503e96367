@@ -1,0 +1,21 @@
+package com.dummyrestapiexample.Project_1;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.config.Configurator;
+import org.testng.annotations.Test;
+
+public class AllEmpData {
+
+	private static final Logger logger = LogManager.getLogger(AllEmpData.class);
+	
+	@Test
+	public void getAllEmpData() {
+		String log4j1Path = "F:\\svl svs\\My projects\\Phase -3 projects\\Course end project 1\\Rest Assure\\Project_1\\resources\\log4j1.xml";
+		Configurator.initialize(null, log4j1Path);
+		
+		logger.info("");
+		logger.info("Getting all Employees Data using get method. ");
+		
+	}
+}

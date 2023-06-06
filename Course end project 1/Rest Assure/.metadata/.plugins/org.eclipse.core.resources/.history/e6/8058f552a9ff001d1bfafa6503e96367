@@ -1,0 +1,45 @@
+package com.dummyrestapiexample.Project_1;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import uriLinks.UriData;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.config.Configurator;
+
+public class EmpDataWithId {
+
+	private static final Logger logger = LogManager.getLogger(EmpDataWithId.class);
+	
+	@Test
+	public void getAllEmpDataById () {
+		
+		for(int empId = 1; empId <= 50; empId++ ) {
+			
+			RequestSpecification request = new RequestSpecBuilder().setBaseUri(UriData.allEmpDetailsById+empId).build();
+			RequestSpecification request1 = given().spec(request).log().all();
+			ResponseSpecification response = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+			
+			Response response1 = request1.when().get().then().spec(response).extract().response();
+			
+			String resdata = response1.asPrettyString();
+			
+			System.out.println();
+			System.out.println("Response data of each emp id is : "+ empId + resdata );
+			
+			logger.info("Response data of each emp id is : "+ empId + resdata);
+		}
+		
+	}
+	
+}

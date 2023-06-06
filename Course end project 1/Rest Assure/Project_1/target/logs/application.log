@@ -1,0 +1,80 @@
+2023-06-02 19:30:23,195 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - 
+2023-06-02 19:30:23,198 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - Getting all Employees Data using get method. 
+2023-06-02 19:30:26,888 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - All Employees data getting test completed Successfully.. 
+2023-06-02 19:30:46,781 [main] INFO  com.dummyrestapiexample.Project_1.EmpDataWithId - Emp data By id test 
+2023-06-02 19:30:50,898 [main] INFO  com.dummyrestapiexample.Project_1.EmpDataWithId - Response data of emp id is : <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+2023-06-02 19:30:50,899 [main] INFO  com.dummyrestapiexample.Project_1.EmpDataWithId - Emp data By id test completed sucessfully..
+2023-06-02 19:31:03,920 [main] INFO  com.dummyrestapiexample.Project_1.EmpUpdate - 
+2023-06-02 19:31:03,925 [main] INFO  com.dummyrestapiexample.Project_1.EmpUpdate - Emp update test started successfully. 
+2023-06-02 19:31:07,618 [main] INFO  com.dummyrestapiexample.Project_1.EmpUpdate - 
+2023-06-02 19:31:07,618 [main] INFO  com.dummyrestapiexample.Project_1.EmpUpdate - Emp update test completed sucessfully..
+2023-06-02 19:31:21,822 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - 
+2023-06-02 19:31:21,828 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - 
+2023-06-02 19:32:48,200 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - Delete EmpDetail test started successfully..
+2023-06-02 19:32:48,205 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - 
+2023-06-02 19:32:53,614 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - 
+2023-06-02 19:32:53,614 [main] INFO  com.dummyrestapiexample.Project_1.DeleteEmpRecord - Delete EmpDetail test completed successfully..
+2023-06-02 22:18:20,382 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:18:20,414 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:18:20,492 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:18:20,492 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:18:20,580 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:18:20,580 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:18:20,630 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:18:20,630 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:18:20,672 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:18:20,672 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 
+2023-06-02 22:18:20,723 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - Delete EmpDetail test started successfully..
+2023-06-02 22:18:20,723 [main] INFO  com.restassure.RestaurantApiTest.RestaurantApiTesting - 

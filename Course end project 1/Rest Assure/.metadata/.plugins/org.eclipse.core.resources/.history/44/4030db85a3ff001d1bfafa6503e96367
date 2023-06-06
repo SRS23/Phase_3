@@ -1,0 +1,6 @@
+package uriLinks;
+
+public class UriData {
+
+	public static final string allEmpDetails = "https://dummy.restapiexample.com/api/v1/employees";
+}

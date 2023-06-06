@@ -1,0 +1,19 @@
+2023-06-01 15:25:31,090 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - 
+2023-06-01 15:25:31,094 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - Getting all Employees Data using get method. 
+2023-06-01 15:25:35,064 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - All Employees data getting test completed Successfully.. 
+2023-06-01 15:25:48,684 [main] INFO  com.dummyrestapiexample.Project_1.EmpDataWithId - Emp data By id test 
+2023-06-01 15:26:41,773 [main] INFO  com.dummyrestapiexample.Project_1.EmpDataWithId - Emp data By id test 
+2023-06-01 15:26:45,267 [main] INFO  com.dummyrestapiexample.Project_1.EmpDataWithId - Response data of emp id is : {
+    "status": "success",
+    "data": {
+        "id": 1,
+        "employee_name": "Tiger Nixon",
+        "employee_salary": 320800,
+        "employee_age": 61,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+2023-06-01 15:26:45,268 [main] INFO  com.dummyrestapiexample.Project_1.EmpDataWithId - Emp data By id test completed sucessfully..
+2023-06-01 15:27:19,531 [main] INFO  com.dummyrestapiexample.Project_1.EmpUpdate - 
+2023-06-01 15:27:19,535 [main] INFO  com.dummyrestapiexample.Project_1.EmpUpdate - Emp update test started successfully. 

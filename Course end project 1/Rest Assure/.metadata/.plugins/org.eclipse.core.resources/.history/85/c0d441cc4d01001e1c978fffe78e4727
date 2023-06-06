@@ -1,0 +1,2 @@
+2023-06-02 19:29:32,515 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - 
+2023-06-02 19:29:32,523 [main] INFO  com.dummyrestapiexample.Project_1.AllEmpData - Getting all Employees Data using get method. 
